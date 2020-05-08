@@ -184,6 +184,19 @@ namespace GameLauncher.Update
 
         private void UpdateFilesFinished(object sender, RunWorkerCompletedEventArgs e)
         {
+            if (File.Exists("content.xml"))
+            {
+                File.Delete("content.xml");
+            }
+            if (File.Exists("content.version"))
+            {
+                File.Delete("content.version");
+            }
+            if (File.Exists("content.changes"))
+            {
+                File.Delete("content.changes");
+            }
+
             StatusUpdate?.Invoke(Localization.GetText("GameUpdater.Status.Finished"));
             UpdateFinished?.Invoke(this, EventArgs.Empty);
         }
