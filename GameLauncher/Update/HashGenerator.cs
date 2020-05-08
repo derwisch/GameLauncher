@@ -72,7 +72,7 @@ namespace GameLauncher.Update
             {
                 var result = new FileStateInfo();
 
-                result.FileName = info.FullName;
+                result.FileName = info.FullName.Replace(HashGenerator.RootDirectory, "");
                 result.FileSize = info.Length;
                 result.LastWrite = info.LastWriteTimeUtc;
                 using (FileStream fileStream = info.OpenRead())
