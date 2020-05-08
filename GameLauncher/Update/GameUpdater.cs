@@ -201,7 +201,12 @@ namespace GameLauncher.Update
             try
             {
                 Uri address = new Uri(uriString);
-                webClient.DownloadFile(address, fileName);
+                webClient.DownloadFile(address, fileName + ".download");
+                if (File.Exists(fileName))
+                {
+                    File.Delete(fileName);
+                }
+                File.Move(fileName + ".download", fileName);
             }
             catch
             {
