@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localization>
+  <lang key="en-US" isFallback="true">
+    <entry key="GameUpdater.Status.DownloadingIndexFiles">Downloading index files</entry>
+    <entry key="GameUpdater.Status.CheckingLocalFiles">Checking local files</entry>
+    <entry key="GameUpdater.Status.DownloadingNeededFiles">Downloading needed files</entry>
+    <entry key="GameUpdater.Status.Finished">Finished!</entry>
+    <entry key="GameUpdater.Error.CannotReadContentFile">Error while reading content file.</entry>
+    <entry key="GameUpdater.Message.CannotReadContentFile">-- Could not read content file --</entry>
+    <entry key="GameUpdater.Log.FailedToDownload">Failed to download</entry>
+    <entry key="HashGenerator.Error.CannotReadContentFile">
+      Error while reading content file.
+      The following exception occured:
+    </entry>
+    <entry key="LauncherUpdate.Checked.Text">
+      A new launcher version is available.
+      Downloading now.
+    </entry>
+    <entry key="LauncherUpdate.Checked.Title">New launcher version available!</entry>
+    <entry key="Launcher.Title">Your Localized Launcher Title</entry>
+    <entry key="Launcher.Label.LauncherVersion">Launcher Version</entry>
+    <entry key="Launcher.Label.GameVersion">Game Version</entry>
+    <entry key="Launcher.Label.Status">Status</entry>
+    <entry key="Launcher.Error.CannotStartGame.Text">
+      Game could not be started.
+      Please restart the launcher to download missing files.</entry>
+    <entry key="Launcher.Error.CannotStartGame.Title">Couldn't launch!</entry>
+    <entry key="Launcher.Button.Launch">Start</entry>
+    <entry key="Launcher.Button.Quit">Quit</entry>
+    <entry key="Launcher.Label.Changelog">Changelog</entry>
+    <entry key="Launcher.Label.UpdateFailed">Update Failed</entry>
+    
+    <entry key="Example.LocalizedLink.URL">http://example.org/en/MyGamePage</entry>
+    <entry key="Example.LocalizedLink.Title">Homepage</entry>
+  </lang>
+  <lang key="de-DE">
+    <entry key="GameUpdater.Status.DownloadingIndexFiles">Lade Index Dateien</entry>
+    <entry key="GameUpdater.Status.CheckingLocalFiles">Überprüfe lokale Dateien</entry>
+    <entry key="GameUpdater.Status.DownloadingNeededFiles">Lade benötigte Dateien</entry>
+    <entry key="GameUpdater.Status.Finished">Abgeschlossen!</entry>
+    <entry key="GameUpdater.Error.CannotReadContentFile">Fehler beim Lesen der Inhaltsdatei.</entry>
+    <entry key="GameUpdater.Message.CannotReadContentFile">-- Die Inhaltsdatei konnte nicht gelesen werden --</entry>
+    <entry key="GameUpdater.Log.FailedToDownload">Fehler beim Download von</entry>
+    <entry key="HashGenerator.Error.CannotReadContentFile">
+      Fehler beim Lesen der Inhaltsdatei.
+      Der folgende Fehler ist aufgetreten:
+    </entry>
+    <entry key="LauncherUpdate.Checked.Text">
+      Eine neue Launcher Version ist verfügbar.
+      Lade jetzt runter.
+    </entry>
+    <entry key="LauncherUpdate.Checked.Title">New launcher version available!</entry>
+    <entry key="Launcher.Title">Dein übersetzter Launcher Titel</entry>
+    <entry key="Launcher.Label.LauncherVersion">Launcher Version</entry>
+    <entry key="Launcher.Label.GameVersion">Spiel Version</entry>
+    <entry key="Launcher.Label.Status">Status</entry>
+    <entry key="Launcher.Error.CannotStartGame.Text">
+      Das Spiel konnte nicht gestartet werden.
+      Bitte starte den Launcher erneut um fehlende Dateien herunterzuladen.
+    </entry>
+    <entry key="Launcher.Error.CannotStartGame.Title">Start nicht möglich!</entry>
+    <entry key="Launcher.Button.Launch">Start</entry>
+    <entry key="Launcher.Button.Quit">Beenden</entry>
+    <entry key="Launcher.Label.Changelog">Änderungen</entry>
+    <entry key="Launcher.Label.UpdateFailed">Update fehlgeschlagen</entry>
+
+    <entry key="Example.LocalizedLink.URL">http://example.org/de/MyGamePage</entry>
+    <entry key="Example.LocalizedLink.Title">Homepage</entry>
+  </lang>
+</localization>

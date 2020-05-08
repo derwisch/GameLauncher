@@ -1,0 +1,6 @@
+Changelog for development snapshot 0.1.0-Hagalaz
+
+- Changed liquid fire (wizard fire spell Level 15 ability) to slowly fade out instead of just disappearing
+- Added arrow key movement for the camera
+- Added a limit to zooming in with the scroll wheel.
+- Internal changes to towers

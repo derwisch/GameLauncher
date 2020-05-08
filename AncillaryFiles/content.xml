@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfFileStateInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileStateInfo>
+    <FileName>\Game.exe</FileName>
+    <FileSize>20813824</FileSize>
+    <MD5Hash>rOgwuEZ4Xdv46aPG3/E2+g==</MD5Hash>
+    <LastWrite>2016-02-29T14:47:23.0646317Z</LastWrite>
+  </FileStateInfo>
+</ArrayOfFileStateInfo>
